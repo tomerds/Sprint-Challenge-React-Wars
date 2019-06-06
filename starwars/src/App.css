@@ -1,8 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Saira+Extra+Condensed:500');
+
 .App {
   text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  
+
+  
 }
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+
+ul {
+  background-color: rgba(0, 0, 0, 0.418);
+  width: 50%;
+  margin: 0 auto;
+  list-style: none;
+  height: 80vh;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: rgb(248, 207, 24);
+  text-shadow: 1px 1px 5px #fff;
+  font-size: 2rem;
+}
+
